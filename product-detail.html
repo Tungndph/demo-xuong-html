@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./product-detail.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/css/all.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./img/logo.png" alt="" />
+        <h2>Furniro</h2>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="">Home</a>
+            <a href="">Shop</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="icons">
+        <i class="fa-solid fa-user"></i>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-regular fa-heart"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </header>
+
+    <div class="link">
+      <ul class="breadcrumb">
+        <li>
+          <a href="/">Home</a>
+          <img src="./img/chevron-right-regular-36.png" alt="" />
+        </li>
+        <li>
+          <a href="/shop">Shop</a>
+          <img src="./img/chevron-right-regular-36.png" alt="" />
+        </li>
+      
+        <h5 >Asgard sofa</h5>
+      </ul>
+    </div>
+    <div class="container">
+      <div class="prd-detail">
+        <div class="sp1">
+          <div>
+            <p style="cursor: pointer">
+              <img
+                src="img/pr1.png"
+                alt=""
+                onclick="changeImage('img/pr1.png')"
+              />
+              <img
+                src="img/pr2.png"
+                alt=""
+                onclick="changeImage('img/pr2.png')"
+              />
+              <img
+                src="img/pr3.png"
+                alt=""
+                onclick="changeImage('img/pr3.png')"
+              />
+              <img
+                src="img/pr4.png"
+                alt=""
+                onclick="changeImage('img/pr4.png')"
+              />
+            </p>
+          </div>
+          <img
+            src="img/pr5.png"
+            alt=""
+            width="465px"
+            height="520px"
+            id="main-img"
+          />
+        </div>
+        <div class="infor">
+          <h2>Áo phông unisex trẻ em in Chip & Dale</h2>
+
+          <p class="price">Giá: 169.000 ₫</p>
+
+          <div class="danh-gia">
+            <div class="sao">
+              <input type="radio" name="danh-gia" id="sao-5" value="5" />
+              <label for="sao-5"><i class="fas fa-star"></i></label>
+              <input type="radio" name="danh-gia" id="sao-4" value="4" />
+              <label for="sao-4"><i class="fas fa-star"></i></label>
+              <input type="radio" name="danh-gia" id="sao-3" value="3" />
+              <label for="sao-3"><i class="fas fa-star"></i></label>
+              <input type="radio" name="danh-gia" id="sao-2" value="2" />
+              <label for="sao-2"><i class="fas fa-star"></i></label>
+              <input type="radio" name="danh-gia" id="sao-1" value="1" />
+              <label for="sao-1"><i class="fas fa-star"></i></label>
+            </div>
+        
+            <span class="so-luong-danh-gia">5 Customer Review</span>
+          </div>
+          <p class="text-sp">
+            Setting the bar as one of the loudest speakers in its class, the
+            Kilburn is a compact, stout-hearted hero with a well-balanced audio
+            which boasts a clear midrange and extended highs for a sound.
+          </p>
+          <div class="color">
+            <p>Color:</p>
+            <button></button>
+            <button></button>
+            <button></button>
+          </div>
+          <div class="size">
+            <p>Size:</p>
+            <div class="size-btn">
+              <button>L</button>
+              <button>XL</button>
+              <button>XS</button>
+            </div>
+          </div>
+          <div class="cart">
+            <div class="quantity">
+              <button>-</button>
+              <p>1</p>
+              <button>+</button>
+            </div>
+            <div class="shop">
+              <button>Add To Cart</button>
+            </div>
+            <div class="compare">
+              <button>Compare</button>
+            </div>
+          </div>
+          <hr
+            style="
+              border: none;
+              height: 1px;
+              background-color: #ccc;
+              margin: 30px 0;
+            "
+          />
+
+          <div class="content">
+            <p class="sku">SKU : <span>SS001</span></p>
+            <p class="sku">Category : <span>Sofas</span></p>
+            <p class="sku">Tags : <span>Sofa, Chair, Home, Shop</span></p>
+            <p class="share">
+              Share :
+              <span>
+                <a
+                  href="https://www.linkedin.com/in/midhun-v-s"
+                  style="--i: 7"
+                  target="_blank"
+                  ><i class="bx bxl-facebook"></i
+                ></a>
+                <a
+                  href="https://instagram.com/midhun_021"
+                  style="--i: 8"
+                  target="_blank"
+                  ><i class="bx bxl-linkedin"></i
+                ></a>
+                <a
+                  href="https://www.youtube.com/@Unlucky_Coder21"
+                  style="--i: 9"
+                  target="_blank"
+                  ><i class="bx bxl-twitter"></i></a
+              ></span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <hr style="margin-top: 30px" />
+
+      <div class="des">
+        <div class="des-title">
+          <h4>Description</h4>
+          <h4 class="tt2">Additional Information</h4>
+          <h4 class="tt2">Reviews [5]</h4>
+        </div>
+
+        <div class="des-text">
+          <p class="text1">
+            Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn
+            portable active stereo speaker takes the unmistakable look and sound
+            of Marshall, unplugs the chords, and takes the show on the road.
+          </p>
+          <p class="text2">
+            Weighing in under 7 pounds, the Kilburn is a lightweight piece of
+            vintage styled engineering. Setting the bar as one of the loudest
+            speakers in its class, the Kilburn is a compact, stout-hearted hero
+            with a well-balanced audio which boasts a clear midrange and
+            extended highs for a sound that is both articulate and pronounced.
+            The analogue knobs allow you to fine tune the controls to your
+            personal preferences while the guitar-influenced leather strap
+            enables easy and stylish travel.
+          </p>
+        </div>
+        <div class="des-img">
+          <img src="./img/sofa1.png" alt="" />
+          <img src="./img/sofa2.png" alt="" />
+        </div>
+      </div>
+      <hr style="margin-top: 30px" />
+      <h2 class="text-prd">Related Products</h2>
+      <div class="content">
+        <div class="new-content">
+
+             <div class="content1">
+              <div class="product product-1">
+                <img src="./img/anh1.png" alt="" />
+                <div class="discount-circle">-50%</div>
+                <div class="actions">
+                  <button class="cart">Add to Cart</button>
+                  <div class="icon-1">
+                    <button class="like">
+                      <i class="fa-solid fa-share"></i>Share
+                    </button>
+                    <button class="share">
+                      <i class="fa-solid fa-code-compare"></i>Compare
+                    </button>
+                    <button class="share">
+                      <i class="fa-regular fa-heart"></i>Like
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="new1">
+                <h4>Syltherine</h4>
+                <p class="new-p">Stylish cafe chair</p>
+                <p class="new-price">2.500.000đ <del>5.000.000đ</del></p>
+              </div>
+            </div>
+            <div class="content1">
+              <div class="product product-2">
+                <img src="./img/anh2.png" alt="" />
+                <div class="discount-circle">-50%</div>
+                <div class="actions">
+                  <button class="cart">Add to Cart</button>
+                  <div class="icon-1">
+                    <button class="like">
+                      <i class="fa-solid fa-share"></i>Share
+                    </button>
+                    <button class="share">
+                      <i class="fa-solid fa-code-compare"></i>Compare
+                    </button>
+                    <button class="share">
+                      <i class="fa-regular fa-heart"></i>Like
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="new1">
+                <h4>Leviosa</h4>
+                <p class="new-p">Stylish cafe chair</p>
+                <p class="new-price">2.500.000đ <del>5.000.000đ</del></p>
+              </div>
+            </div>
+            <div class="content1">
+              <div class="product product-3">
+                <img src="./img/anh3.jpg" alt="" />
+                <div class="discount-circle">-50%</div>
+                <div class="actions">
+                  <button class="cart">Add to Cart</button>
+                  <div class="icon-1">
+                    <button class="like">
+                      <i class="fa-solid fa-share"></i>Share
+                    </button>
+                    <button class="share">
+                      <i class="fa-solid fa-code-compare"></i>Compare
+                    </button>
+                    <button class="like">
+                      <i class="fa-regular fa-heart"></i>Like
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="new1">
+                <h4>Lolito</h4>
+                <p class="new-p">Luxury big sofa</p>
+                <p class="new-price">7.000.000đ <del>14.000.000đ</del></p>
+              </div>
+            </div>
+            <div class="content1">
+              <div class="product product-4">
+                <img src="./img/anh4.jpg" alt="" />
+                <div class="discount-circle">New</div>
+                <div class="actions">
+                  <button class="cart">Add to Cart</button>
+                  <div class="icon-1">
+                    <button class="like">
+                      <i class="fa-solid fa-share"></i>Share
+                    </button>
+                    <button class="share">
+                      <i class="fa-solid fa-code-compare"></i>Compare
+                    </button>
+                    <button class="share">
+                      <i class="fa-regular fa-heart"></i>Like
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="new1">
+                <h4>Respira</h4>
+                <p class="new-p">Outdoor bar table and stool</p>
+                <p class="new-price">5.000.000đ</p>
+              </div>
+            </div>
+
+        </div>
+      </div>
+      <div class="btn">
+        <button class="show-more">Show More</button>
+      </div>
+    </div>
+    
+    <hr style="margin-top: 30px" />
+   
+    <footer>
+      <div class="ft-content">
+        <h3>Funiro.</h3>
+        <p class="mt-5">
+          400 University Drive Suite 200 Coral Gables, FL 33134 USA
+        </p>
+      </div>
+      <div class="links">
+        <h4>Links</h4>
+        <nav>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="help">
+        <h4>Help</h4>
+        <nav>
+          <ul>
+            <li><a href="">Payment Options</a></li>
+            <li><a href="">Returns</a></li>
+            <li><a href="">Privacy Policies</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="email">
+        <h4>Newsletter</h4>
+        <div class="email-text">
+          <p class="email-p">Enter Your Email Address</p>
+          <p class="email-sub">SUBSCRIBE</p>
+        </div>
+      </div>
+    </footer>
+
+    <hr class="hr-end" />
+    <h4 class="ft-end">2023 furino. All rights reverved</h4>
+
+    <script>
+      function changeImage(newSrc) {
+        var mainImg = document.getElementById("main-img");
+        mainImg.src = newSrc;
+      }
+    </script>
+  </body>
+</html>
